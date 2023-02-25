@@ -119,7 +119,7 @@ struct RegisterView: View {
                 .textContentType(.emailAddress)
                 .border(1, .gray.opacity(0.5))
             
-            TextField("password", text: $password)
+            SecureField("password", text: $password)
                 .textContentType(.password)
                 .border(1, .gray.opacity(0.5))
             

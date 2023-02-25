@@ -41,7 +41,7 @@ struct LoginView: View {
                     .border(1, .gray.opacity(0.5))
                     .padding(.top, 25)
                 
-                TextField("password", text: $password)
+                SecureField("password", text: $password)
                     .textContentType(.password)
                     .border(1, .gray.opacity(0.5))
                 
